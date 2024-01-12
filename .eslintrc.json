@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "plugins": ["@typescript-eslint", "jest", "jsx-a11y", "testing-library"],
+  "rules": {
+    "jest/no-conditional-expect": "off",
+    "testing-library/no-node-access": "off"
+  },
+  "ignorePatterns": ["/*.js", "/*.ts", "storybook-static/*"]
+}

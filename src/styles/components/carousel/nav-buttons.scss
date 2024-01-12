@@ -1,0 +1,60 @@
+.bds-c-carousel {
+  $self: &;
+
+  &__nav-button {
+    $button: &;
+
+    &--body {
+      position: absolute;
+      top: 0;
+      z-index: $bds-zindex-low-base;
+      display: flex;
+      align-items: center;
+      height: calc(100% - #{$bds-spacing-xs} * 2);
+      margin: $bds-spacing-xs 0;
+
+      &#{ $button }--prev {
+        left: calc(#{$bds-spacing-sm} * -1);
+      }
+
+      &#{ $button }--next {
+        right: calc(#{$bds-spacing-sm} * -1);
+      }
+    }
+
+    &--large {
+      &#{ $button }--prev {
+        left: calc(#{$bds-spacing-md} * -1);
+      }
+
+      &#{ $button }--next {
+        right: calc(#{$bds-spacing-md} * -1);
+      }
+    }
+  }
+
+  &__header {
+    &__nav-buttons {
+      display: flex;
+      column-gap: $bds-spacing-st;
+    }
+  }
+
+  &__footer {
+    &--has-nav-buttons {
+      margin-top: calc(#{$bds-spacing-st} * -1);
+    }
+  }
+
+  &--is-full-width {
+    #{ $self }__nav-button--body {
+      &#{ $self }__nav-button--prev {
+        left: $bds-spacing-sm;
+      }
+
+      &#{ $self }__nav-button--next {
+        right: $bds-spacing-sm;
+      }
+    }
+  }
+}

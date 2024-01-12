@@ -1,0 +1,764 @@
+@import '../../styles/variables.module';
+
+/*------------------------------------*\
+  BUTTON CURSOR
+\*------------------------------------*/
+
+// When a button is disabled, pointer-events are set to none, disabling all mouse interactions.
+// However, we still want a not-allowed cursor to appear.
+// To make this work, we wrap each button in a div.
+// The wrapper div needs to be displayed as an inline-block by default, to mimic a button.
+// For block level buttons i.e. full-width layouts, the wrapper div is set to display block.
+
+.bds-c-btn-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+
+  &--layout-full-width-primary,
+  &--layout-full-width-secondary {
+    display: block;
+  }
+
+  &.bds-is-disabled {
+    cursor: not-allowed;
+  }
+}
+
+/*------------------------------------*\
+  BUTTON SHARED STYLES
+\*------------------------------------*/
+
+/*
+  Styles shared between:
+  .bds-c-btn-primary,
+  .bds-c-btn-primary-reversed,
+  .bds-c-btn-secondary-reversed,
+  .bds-c-btn-text,
+  .bds-c-btn-secondary,
+  .bds-c-btn-circular,
+  .bds-c-btn-circular-contained,
+  .bds-c-btn-circular-primary
+*/
+
+.bds-c-btn {
+  $self: &;
+  @include typography-label-md();
+  box-sizing: border-box;
+  appearance: button;
+  position: relative;
+  width: 100%;
+  padding: 0 $bds-spacing-sm;
+  border: 0;
+  background-color: $color-transparent;
+  white-space: nowrap;
+  z-index: $bds-zindex-surface-base;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // Removes iphone color flash
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border: 1px solid $color-transparent;
+    border-radius: $bds-corner-radius-button;
+    @media (prefers-reduced-motion: no-preference) {
+      transition: inset $bds-motion-duration-200 $bds-motion-easing-bounce,
+        border-radius $bds-motion-duration-200 $bds-motion-easing-bounce,
+        box-shadow $bds-motion-duration-200 $bds-motion-easing-standard,
+        background-color $bds-motion-duration-200 $bds-motion-easing-standard,
+        border-color $bds-motion-duration-200 $bds-motion-easing-standard;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: color $bds-motion-duration-200 $bds-motion-easing-standard;
+  }
+
+  &:hover {
+    &::before {
+      inset: -0.3rem;
+    }
+  }
+
+  &:focus-visible {
+    outline: 0;
+    &::before {
+      inset: -0.3rem;
+      box-shadow: 0 0 0 4px $color-focus-ring-dark,
+        0 0 0 8px $color-focus-ring-light;
+    }
+  }
+
+  &:active {
+    &::before {
+      inset: 0;
+      border-radius: $bds-corner-radius-pressed;
+    }
+  }
+
+  &.bds-is-disabled {
+    pointer-events: none;
+  }
+}
+
+/*------------------------------------*\
+  BUTTON SHARED STYLES
+\*------------------------------------*/
+
+/*
+  Styles shared between:
+  .bds-c-btn-primary,
+  .bds-c-btn-primary-reversed,
+  .bds-c-btn-secondary-reversed,
+  .bds-c-btn-text,
+  .bds-c-btn-secondary,
+
+  For example:
+  .bds-c-btn--size-small does not exist in ButtonCircular, it uses .bds-c-btn-circular--size-small instead.
+
+*/
+
+.bds-c-btn {
+  $self: &;
+  text-decoration: none;
+
+  // Icons
+
+  span {
+    > svg {
+      display: block;
+      fill: currentColor;
+    }
+  }
+
+  // Sizes
+
+  &--size-small {
+    height: 3.2rem;
+    line-height: 3.2rem;
+  }
+
+  &--size-medium {
+    height: 4rem;
+    line-height: 4rem;
+  }
+
+  &--size-regular {
+    height: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  &--size-large {
+    height: 6.4rem;
+    line-height: 6.4rem;
+  }
+
+  // Remove Side Spacing
+
+  &--remove-side-spacing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  // Layout & Truncation
+
+  &--layout-default,
+  &--layout-full-width-primary {
+    #{ $self }__idle-content {
+      &__prefix,
+      &__suffix {
+        &--truncate {
+          min-width: 0;
+          span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  &--layout-full-width-secondary {
+    #{ $self }__idle-content {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      grid-template-areas: 'prefix label suffix';
+      justify-items: center;
+
+      &__prefix {
+        justify-self: flex-start;
+        grid-area: prefix;
+      }
+
+      &__label {
+        grid-area: label;
+      }
+
+      &__suffix {
+        justify-self: flex-end;
+        grid-area: suffix;
+      }
+
+      &__prefix,
+      &__suffix {
+        &--truncate {
+          max-width: 100%;
+          span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  // Content
+
+  &__idle-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: $bds-spacing-xs;
+    &__prefix,
+    &__label,
+    &__suffix {
+      display: flex;
+      align-items: center;
+    }
+
+    &.enter {
+      opacity: 0;
+    }
+
+    &.enter-active {
+      opacity: 1;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: opacity $bds-motion-duration-150 $bds-motion-easing-entrance;
+      }
+    }
+
+    &.enter-done {
+      opacity: 1;
+    }
+
+    &.exit,
+    &.exit-active,
+    &.exit-done {
+      opacity: 0;
+    }
+  }
+
+  &__loading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &.enter {
+      opacity: 0;
+    }
+
+    &.enter-active {
+      opacity: 1;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: opacity $bds-motion-duration-150 $bds-motion-easing-entrance;
+      }
+    }
+
+    &.enter-done {
+      opacity: 1;
+    }
+
+    &.exit,
+    &.exit-active,
+    &.exit-done {
+      opacity: 0;
+    }
+  }
+
+  &__success-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__success-icon {
+      width: 0;
+      height: 0;
+      fill: currentColor;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-300 $bds-motion-easing-bounce
+            $bds-motion-delay-100,
+          height $bds-motion-duration-300 $bds-motion-easing-bounce
+            $bds-motion-delay-100;
+      }
+    }
+
+    &__circle-1,
+    &__circle-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+    }
+
+    &__circle-1 {
+      z-index: -2;
+      background-color: $color-interaction-primary;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-200 $bds-motion-easing-standard,
+          height $bds-motion-duration-200 $bds-motion-easing-standard,
+          opacity $bds-motion-duration-200 $bds-motion-easing-exit;
+      }
+    }
+
+    &__circle-2 {
+      z-index: -1;
+      background-color: $color-white;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-200 $bds-motion-easing-standard
+            $bds-motion-delay-50,
+          height $bds-motion-duration-200 $bds-motion-easing-standard
+            $bds-motion-delay-50,
+          opacity $bds-motion-duration-200 $bds-motion-easing-exit
+            $bds-motion-delay-50;
+      }
+    }
+
+    &.enter {
+      opacity: 0;
+    }
+
+    &.enter-active {
+      opacity: 1;
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition: opacity $bds-motion-duration-150 $bds-motion-easing-entrance;
+      }
+
+      #{ $self }__success-content__success-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+
+      #{ $self }__success-content__circle-1 {
+        width: 6.5rem;
+        height: 6.5rem;
+        opacity: 0;
+      }
+
+      #{ $self }__success-content__circle-2 {
+        width: 6.8rem;
+        height: 6.8rem;
+        opacity: 0;
+      }
+    }
+
+    &.enter-done {
+      opacity: 1;
+
+      #{ $self }__success-content__success-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+
+      #{ $self }__success-content__circle-1 {
+        width: 6.5rem;
+        height: 6.5rem;
+        opacity: 0;
+      }
+
+      #{ $self }__success-content__circle-2 {
+        width: 6.8rem;
+        height: 6.8rem;
+        opacity: 0;
+      }
+    }
+
+    &.exit,
+    &.exit-active,
+    &.exit-done {
+      opacity: 0;
+    }
+  }
+}
+
+/*------------------------------------*\
+  BUTTON PRIMARY
+\*------------------------------------*/
+
+.bds-c-btn-primary {
+  $self: &;
+  color: $color-on-interaction-primary;
+
+  &::before {
+    background-color: $color-interaction-primary;
+  }
+
+  &:hover {
+    color: $color-on-interaction-primary-hover;
+    &::before {
+      background-color: $color-interaction-primary-hover;
+    }
+  }
+
+  &.bds-is-disabled {
+    color: $color-white;
+    &::before {
+      background-color: $color-neutral-inactive;
+    }
+  }
+
+  &.bds-is-success,
+  &.bds-is-loading {
+    color: $color-interaction-primary;
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+  }
+}
+
+/*------------------------------------*\
+  BUTTON PRIMARY REVERSED
+\*------------------------------------*/
+
+.bds-c-btn-primary-reversed {
+  $self: &;
+  color: $color-interaction-primary;
+  &::before {
+    border-color: $color-neutral-border;
+    background-color: $color-white;
+  }
+
+  &:hover {
+    color: $color-on-interaction-secondary-hover;
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+  }
+
+  &:active {
+    color: $color-on-interaction-secondary-hover;
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+  }
+
+  &.bds-is-disabled {
+    color: $color-neutral-inactive;
+    &::before {
+      background-color: $color-white;
+    }
+  }
+
+  &.bds-is-success,
+  &.bds-is-loading {
+    color: $color-interaction-primary;
+    &::before {
+      background-color: $color-white;
+    }
+  }
+
+  #{ $self }__success-content {
+    width: calc(100% - 2px); // As to not appear above the border
+    height: calc(100% - 2px); // As to not appear above the border
+  }
+}
+
+/*------------------------------------*\
+  BUTTON SECONDARY
+\*------------------------------------*/
+
+.bds-c-btn-secondary {
+  $self: &;
+  color: $color-interaction-primary;
+  &::before {
+    border-color: $color-interaction-primary;
+    background-color: $color-white;
+  }
+
+  &:hover {
+    color: $color-on-interaction-secondary-hover;
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+  }
+
+  &.bds-is-disabled {
+    color: $color-neutral-inactive;
+    &::before {
+      border-color: $color-neutral-inactive;
+      background-color: $color-white;
+    }
+  }
+
+  &.bds-is-success,
+  &.bds-is-loading {
+    color: $color-interaction-primary;
+    &::before {
+      border-color: $color-interaction-primary;
+      background-color: $color-white;
+    }
+  }
+
+  #{ $self }__success-content {
+    width: calc(100% - 2px); // As to not appear above the border
+    height: calc(100% - 2px); // As to not appear above the border
+  }
+}
+
+/*------------------------------------*\
+  BUTTON SECONDARY REVERSED
+\*------------------------------------*/
+
+.bds-c-btn-secondary-reversed {
+  $self: &;
+  color: $color-on-interaction-primary;
+  &::before {
+    border-color: $color-on-interaction-primary;
+    background-color: transparent;
+  }
+
+  &:hover {
+    color: $color-on-interaction-primary-hover;
+    &::before {
+      background-color: $color-interaction-reversed-white-opacity-15;
+    }
+  }
+
+  &.bds-is-disabled {
+    color: $color-interaction-reversed-white-opacity-30;
+    &::before {
+      border-color: $color-interaction-reversed-white-opacity-30;
+      background-color: transparent;
+    }
+  }
+
+  &.bds-is-success,
+  &.bds-is-loading {
+    color: $color-on-interaction-primary;
+    &::before {
+      border-color: $color-on-interaction-primary;
+      background-color: transparent;
+    }
+  }
+
+  #{ $self }__success-content {
+    width: calc(100% - 2px); // As to not appear above the border
+    height: calc(100% - 2px); // As to not appear above the border
+  }
+}
+
+/*------------------------------------*\
+  BUTTON TEXT
+\*------------------------------------*/
+
+.bds-c-btn-text {
+  $self: &;
+  color: $color-interaction-primary;
+  &::before {
+    inset: 25%;
+    background-color: $color-transparent;
+  }
+
+  &:hover {
+    color: $color-on-interaction-secondary-hover;
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+  }
+
+  &.bds-is-disabled {
+    color: $color-neutral-inactive;
+    &::before {
+      inset: 0;
+      background-color: $color-neutral-surface;
+    }
+  }
+
+  &.bds-is-success,
+  &.bds-is-loading {
+    color: $color-interaction-primary;
+    &::before {
+      background-color: $color-transparent;
+    }
+  }
+}
+
+/*------------------------------------*\
+  BUTTON CIRCULAR
+\*------------------------------------*/
+
+.bds-c-btn-circular {
+  $self: &;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    inset: 25%;
+    border-radius: 9999px;
+  }
+
+  &:hover {
+    &::before {
+      background-color: $color-interaction-background-hover;
+    }
+    > svg {
+      fill: $color-on-interaction-secondary-hover;
+    }
+  }
+
+  &:focus-visible {
+    &::before {
+      background-color: $color-white;
+    }
+  }
+
+  &:active {
+    &::before {
+      border-radius: 9999px;
+    }
+  }
+
+  &.bds-is-disabled {
+    &::before {
+      inset: 0;
+      background-color: $color-neutral-surface;
+    }
+    > svg {
+      fill: $color-neutral-inactive;
+    }
+  }
+
+  // Icon
+
+  > svg {
+    width: 2.4rem;
+    height: 2.4rem;
+    flex-shrink: 0;
+    fill: $color-on-interaction-secondary;
+    @media (prefers-reduced-motion: no-preference) {
+      transition: fill $bds-motion-duration-200 $bds-motion-easing-standard;
+    }
+  }
+
+  // Sizes
+
+  &--size-small {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  &--size-medium {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  &--size-large {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  // Grey Icon
+
+  &--grey-icon {
+    > svg {
+      fill: $color-neutral-primary;
+    }
+
+    &:hover {
+      > svg {
+        fill: $color-neutral-secondary;
+      }
+    }
+  }
+}
+
+/*------------------------------------*\
+  BUTTON CIRCULAR CONTAINED
+\*------------------------------------*/
+
+.bds-c-btn-circular-contained {
+  $self: &;
+  &::before {
+    inset: 0;
+    background-color: $color-white;
+    border-color: $color-neutral-border;
+  }
+  &.bds-c-btn-circular--size-medium,
+  &.bds-c-btn-circular--size-large {
+    &:not(.bds-c-btn-circular--without-shadows) {
+      &::before {
+        box-shadow: $bds-elevation-low;
+      }
+    }
+
+    &:focus-visible {
+      &::before {
+        box-shadow: 0 0 0 4px $color-focus-ring-dark,
+          0 0 0 8px $color-focus-ring-light;
+      }
+    }
+  }
+}
+
+/*------------------------------------*\
+  BUTTON CIRCULAR PRIMARY
+\*------------------------------------*/
+
+.bds-c-btn-circular-primary {
+  $self: &;
+
+  > svg {
+    fill: $color-on-interaction-primary;
+  }
+
+  &::before {
+    inset: 0;
+    background-color: $color-interaction-primary;
+  }
+
+  &:hover {
+    &::before {
+      background-color: $color-interaction-primary-hover;
+    }
+    > svg {
+      fill: $color-on-interaction-primary-hover;
+    }
+  }
+
+  &:focus-visible {
+    &::before {
+      background-color: $color-interaction-primary;
+    }
+  }
+
+  &.bds-is-disabled {
+    &::before {
+      inset: 0;
+      background-color: $color-neutral-inactive;
+    }
+    &.bds-c-btn-circular--size-medium,
+    &.bds-c-btn-circular--size-large {
+      &::before {
+        box-shadow: $bds-elevation-low;
+      }
+    }
+    > svg {
+      fill: $color-white;
+    }
+  }
+}

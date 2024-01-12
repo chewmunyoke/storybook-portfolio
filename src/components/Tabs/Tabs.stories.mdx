@@ -1,0 +1,129 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+import { DefaultTemplate, DemoTemplate, AutoScrollTemplate } from './template';
+import Tabs from './Tabs';
+import Tab from './Tab';
+import { IcHeart } from '../../icons';
+import '../../styles/components/tabs.scss';
+
+<Meta title="Components/Tabs" component={Tabs} />
+
+# Tabs
+
+- [Overview](#overview)
+- [Tabs Props](#tabs-props)
+- [Tab Props](#tab-props)
+- [Import JSX](#import-jsx)
+- [Import SCSS](#import-scss)
+- [Demonstration](#demonstration)
+- [Auto-scroll Behavior](#auto-scroll-behavior)
+- [Accessibility](#accessibility)
+
+## Design
+
+Link to the design documentation <a href="https://bento.deliveryhero.net/3d2d84a09/p/391ff4-tabs">here</a>.
+
+## Overview
+
+Tabs divide content into separate views which users navigate between. The tabs are visible at all times, but only one tab panel is visible at a time. The tabs act like buttons. When the tab is activated, the corresponding panel is made visible, and all other panels are hidden.
+
+At a minimum screen width of **768px**, arrow buttons will appear if tabs overflow.
+
+<Canvas>
+  <Story
+    name="Overview"
+    args={{
+      id: 'tabs-overview',
+      data: [
+        {
+          label: 'Tab',
+        },
+        {
+          label: 'Selected Tab',
+          selected: true,
+        },
+        {
+          label: 'Disabled Tab',
+          disabled: true,
+        },
+        {
+          icon: <IcHeart />,
+          label: 'Tab with Icon',
+        },
+        {
+          icon: <IcHeart />,
+          label: 'Selected Tab with Icon',
+          selected: true,
+        },
+        {
+          icon: <IcHeart />,
+          label: 'Disabled Tab with Icon',
+          disabled: true,
+        },
+      ],
+    }}
+  >
+    {DefaultTemplate.bind({})}
+  </Story>
+</Canvas>
+
+## Tabs Props
+
+<ArgsTable of={Tabs} />
+
+## Tab Props
+
+<ArgsTable of={Tab} />
+
+## Demonstration
+
+Here you can interact with the selecting and scrolling behavior (using mouse and keyboard on desktop; using touch on mobile). Refer to <a href='#keyboard-navigation'>Keyboard Navigation</a> section for more information on how to navigate via keyboard.
+
+<Canvas>
+  <Story name="Demonstration">{DemoTemplate.bind({})}</Story>
+</Canvas>
+
+## Auto-scroll Behavior
+
+By default, if you have an outside source selecting tabs the component will not scroll horizontally, resulting in the selected tab being out of view. For example, on RDP category swimlane, category tabs are selected as the user scrolls through the menu. Passing `enableAutoScroll` prop solves this by checking if the selected tab is in view and scrolling it into view if it is not.
+
+<Canvas>
+  <Story
+    name="Auto-scroll Behaviour"
+    parameters={{
+      previewTabs: {
+        canvas: {
+          hidden: true,
+        },
+      },
+      viewMode: 'docs',
+    }}
+  >
+    {AutoScrollTemplate.bind({})}
+  </Story>
+</Canvas>
+
+## Accessibility
+
+### Keyboard Navigation
+
+| Key                | Action                                                              |
+| ------------------ | ------------------------------------------------------------------- |
+| `ArrowLeft`        | Moves focus to the next tab                                         |
+| `ArrowRight`       | Moves focus to the previous tab                                     |
+| `Tab`              | When focus moves into the TabList, places focus on the selected Tab |
+| `Space` or `Enter` | Selects the tab                                                     |
+| `Home`             | Moves focus to the first Tab                                        |
+| `End`              | Moves focus to the last Tab                                         |
+
+### ARIA Roles
+
+| Component | Aria Attributes  | Description                                                     |
+| --------- | ---------------- | --------------------------------------------------------------- |
+| TabList   | role='tablist'   | Indicates that it is a tablist                                  |
+|           | aria-orientation | Set to `vertical` or `horizontal` based on the orientation      |
+| Tab       | role='tab'       | Indicates that it is a tab                                      |
+|           | aria-controls    | Set to the `id` of its associated TabPanel                      |
+|           | aria-selected    | Set to `true` in the selected tab and `false` in all other tabs |
+|           | tab-index        | Set to `0` in the selected tab and `-1` in all other tabs       |
+| TabPanel  | role='tabpanel'  | Indicates that it is a tabpanel                                 |
+|           | aria-labelledby  | Set to the `id` of its associated Tab                           |

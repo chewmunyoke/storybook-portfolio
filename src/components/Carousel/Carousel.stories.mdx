@@ -1,0 +1,236 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+import { DefaultTemplate } from './template';
+import Carousel from './index';
+import '../../styles/components/carousel/index.scss';
+
+<Meta title="Components/Carousel" component={Carousel} />
+
+# Carousel
+
+- [Overview](#overview)
+- [Props](#props)
+- [Item Width & Height](#item-width-&-height)
+- [Nav Button Placement](#nav-button-placement)
+- [Snap Type](#snap-type)
+- [Pagination Type](#pagination-type)
+- [Autoplay](#autoplay)
+
+## Design
+
+Link to the design documentation <a href="https://bento.deliveryhero.net/3d2d84a09/p/276351-carousel">here</a>.
+
+## Overview
+
+A carousel is where a series of images, banners, or content slides automatically cycle or can be manually navigated by the user.
+
+The user is able to navigate the carousel through the following interactions.
+
+- Clicking / tapping on the following elements:
+
+  - arrow buttons
+  - pagination indicators
+  - scrollbar track
+
+- Pressing left / right arrow keys to shift the focus of the following elements:
+
+  - carousel items (provided that there are `<a/>` elements in the children)
+  - pagination indicators
+
+- Pressing left / right arrow keys while focusing on the scrollbar to change the position of the scrollbar thumb
+
+- Dragging via mouse / touch on the carousel items
+
+  - when dragging to left, if the visibility of the item after the last fully visible item is at least 50%, it snaps to the next item / page
+  - when dragging to right, if the visibility of the item before the first fully visible item is at least 50%, it snaps to the previous item / page
+
+<Canvas>
+  <Story
+    name="Overview"
+    args={{
+      id: 'carousel-overview',
+      title: 'Title',
+      subtitle: 'Subtitle',
+      headerButtonLabel: 'Button',
+    }}
+  >
+    {DefaultTemplate.bind({})}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={Carousel} />
+
+## Item Width & Height
+
+All carousel items will have the same height as the `itemHeight` prop, and the same width as the `itemWidth` prop. In mobile, the items will be resized to full-width if the `itemWidth` prop provided is larger than the viewport width.
+
+When `isFullWidth` prop is set to true, the `itemWidth` prop will be ignored. The nav button placement in the body section will also be slightly different as well.
+
+<Canvas>
+  <Story
+    name="Item Width & Height"
+    tags={['isHiddenInSidebar']}
+    parameters={{
+      docs: {
+        page: null,
+      },
+    }}
+  >
+    <DefaultTemplate
+      id="carousel-item-width-height"
+      title="Custom Width & Height"
+      itemHeight={300}
+      itemWidth={200}
+    />
+    <DefaultTemplate
+      id="carousel-isFullWidth"
+      title="isFullWidth: true"
+      isFullWidth
+    />
+  </Story>
+</Canvas>
+
+## Nav Button Placement
+
+There are three `navButtonPlacement` variants available: `header`, `body` (default), `body-primary`, `footer` and `none`.
+
+<Canvas>
+  <Story
+    name="Nav Button Placement"
+    parameters={{
+      previewTabs: {
+        canvas: {
+          hidden: true,
+        },
+      },
+      viewMode: 'docs',
+    }}
+  >
+    <DefaultTemplate
+      id="carousel-navButtonPlacement-header"
+      title="Nav Button Placement: Header"
+      navButtonPlacement="header"
+    />
+    <DefaultTemplate
+      id="carousel-navButtonPlacement-body"
+      title="Nav Button Placement: Body"
+      navButtonPlacement="body"
+    />
+    <DefaultTemplate
+      id="carousel-navButtonPlacement-body-primary"
+      title="Nav Button Placement: Body Primary"
+      navButtonPlacement="body-primary"
+    />
+    <DefaultTemplate
+      id="carousel-navButtonPlacement-footer"
+      title="Nav Button Placement: Footer"
+      navButtonPlacement="footer"
+    />
+    <DefaultTemplate
+      id="carousel-navButtonPlacement-none"
+      title="Nav Button Placement: None"
+      navButtonPlacement="none"
+    />
+  </Story>
+</Canvas>
+
+## Snap Type
+
+There are two `snapType` variants available: `item` and `page`.
+
+<Canvas>
+  <Story
+    name="Snap Type"
+    parameters={{
+      previewTabs: {
+        canvas: {
+          hidden: true,
+        },
+      },
+      viewMode: 'docs',
+    }}
+  >
+    <DefaultTemplate
+      id="carousel-snapType-item"
+      title="Snap Type: Item"
+      snapType="item"
+    />
+    <DefaultTemplate
+      id="carousel-snapType-page"
+      title="Snap Type: Page"
+      snapType="page"
+    />
+  </Story>
+</Canvas>
+
+## Pagination Type
+
+There are three `paginationType` variants available: `indicator` (default), `scrollbar` and `none`. For `indicator` variant, a maximum of 5 pagination indicators will be displayed. For `scrollbar` variant, a scrollbar will be displayed.
+
+Note that when both `navButtonPlacement` and `paginationType` props are `none` at the same time, the remaining interaction available is by dragging the carousel items.
+
+<Canvas>
+  <Story
+    name="Pagination Type"
+    parameters={{
+      previewTabs: {
+        canvas: {
+          hidden: true,
+        },
+      },
+      viewMode: 'docs',
+    }}
+  >
+    <DefaultTemplate
+      id="carousel-paginationType-indicator"
+      title="Pagination Type: Indicator"
+      paginationType="indicator"
+    />
+    <DefaultTemplate
+      id="carousel-paginationType-scrollbar"
+      title="Pagination Type: Scrollbar"
+      paginationType="scrollbar"
+    />
+    <DefaultTemplate
+      id="carousel-paginationType-none"
+      title="Pagination Type: None"
+      paginationType="none"
+    />
+  </Story>
+</Canvas>
+
+## Autoplay
+
+When `autoplay` prop is set to true, the carousel items will cycle automatically in a default interval of 5 seconds. A play/pause button will also become available. Autoplay will automatically pause when the user's mouse hovers on the carousel container, and resume when it leaves. Autoplay will also not start unless the component is at least 50% visible on the screen.
+
+During autoplay, the carousel transition animation will be different depending on the `isFullWidth` prop.
+
+<Canvas>
+  <Story
+    name="Autoplay"
+    parameters={{
+      previewTabs: {
+        canvas: {
+          hidden: true,
+        },
+      },
+      viewMode: 'docs',
+    }}
+  >
+    <DefaultTemplate
+      id="carousel-autoplay-isFullWidth-false"
+      title="Autoplay with isFullWidth: false"
+      autoplay
+      navButtonPlacement="footer"
+      snapType="item"
+    />
+    <DefaultTemplate
+      id="carousel-autoplay-isFullWidth-true"
+      title="Autoplay with isFullWidth: true"
+      autoplay
+      navButtonPlacement="footer"
+      isFullWidth
+    />
+  </Story>
+</Canvas>

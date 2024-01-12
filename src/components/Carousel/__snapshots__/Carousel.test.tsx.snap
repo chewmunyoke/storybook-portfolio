@@ -1,0 +1,5739 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Snapshot Tests should render without throwing errors 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with "isFullWidth" as true 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel bds-c-carousel--is-full-width"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 940px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 8 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 9 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 10 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 11 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 12 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 13 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 14 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 15 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 16 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 17 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 18 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 19 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 20 of 20 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with navButtonPlacement="body" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with navButtonPlacement="body-primary" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next bds-c-carousel__nav-button--large"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-primary bds-c-btn-circular--size-large"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with navButtonPlacement="footer" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer bds-c-carousel__footer--has-nav-buttons"
+      >
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--prev"
+        >
+          <div
+            class="bds-c-btn-cursor bds-is-disabled"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Previous"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium bds-is-disabled"
+              disabled=""
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M11.3968 4.39702L11.3126 4.46963L4.11718 11.6639C3.96136 11.8197 3.96088 12.0722 4.11611 12.2286L11.3618 19.5284C11.6536 19.8223 12.1284 19.8241 12.4224 19.5323C12.6897 19.267 12.7154 18.8505 12.4987 18.556L12.4264 18.4716L6.91819 12.9204C6.87929 12.8812 6.87954 12.8179 6.91874 12.779C6.93747 12.7604 6.96279 12.75 6.98918 12.75L19.25 12.75C19.6642 12.75 20 12.4142 20 12C20 11.5858 19.6642 11.25 19.25 11.25L6.89451 11.25C6.83928 11.25 6.79451 11.2052 6.79451 11.15C6.79451 11.1235 6.80505 11.098 6.8238 11.0793L12.3732 5.53037C12.6395 5.26413 12.6637 4.84747 12.4459 4.55384L12.3733 4.46971C12.1071 4.20343 11.6904 4.17918 11.3968 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with navButtonPlacement="header" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with navButtonPlacement="none" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with paginationType="indicator" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with paginationType="none" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with paginationType="scrollbar" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <div
+          aria-controls="carousel__list"
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="14"
+          class="bds-c-carousel__scrollbar"
+          role="scrollbar"
+          tabindex="0"
+        >
+          <div
+            class="bds-c-carousel__scrollbar__track"
+            role="presentation"
+          />
+          <div
+            class="bds-c-carousel__scrollbar__thumb"
+            role="presentation"
+            style="width: 134.4477972238986px; left: 0px;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with snapType="item" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 8 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 9 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 10 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 11 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 12 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 13 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 14 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 15 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 16 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 17 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 18 of 18 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with snapType="page" 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Carousel Snapshot Tests with title, subtitle and header button 1`] = `
+<body>
+  <div>
+    <div
+      class="bds-c-carousel"
+      id="carousel"
+      style="--carousel-gap: 16px; --carousel-autoplay-interval: 5000ms;"
+    >
+      <div
+        class="bds-c-carousel__header"
+      >
+        <div
+          class="bds-c-carousel__header--left"
+        >
+          <div
+            class="bds-c-carousel__header__title"
+          >
+            Title
+          </div>
+          <div
+            class="bds-c-carousel__header__subtitle"
+          >
+            Subtitle
+          </div>
+        </div>
+        <div
+          class="bds-c-carousel__header--right"
+        >
+          <div
+            class="bds-c-btn-cursor bds-c-btn-cursor--layout-default"
+          >
+            <button
+              class="bds-c-btn bds-c-btn--layout-default bds-c-btn-text bds-c-btn--size-small bds-is-idle bds-c-btn--remove-side-spacing"
+            >
+              <span
+                class="bds-c-btn__idle-content"
+              >
+                <span
+                  class="bds-c-btn__idle-content__label"
+                >
+                  <span>
+                    Button
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__body"
+      >
+        <div
+          class="bds-c-carousel__container"
+          role="presentation"
+        >
+          <ul
+            class="bds-c-carousel__list"
+            id="carousel__list"
+            role="presentation"
+            style="transform: translateX(0px);"
+          >
+            <li
+              class="bds-c-carousel__list__item appear appear-active"
+              id="carousel__list-item-0"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-0"
+                tabindex="0"
+              >
+                Item 0
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-1"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-1"
+                tabindex="-1"
+              >
+                Item 1
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-2"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-2"
+                tabindex="-1"
+              >
+                Item 2
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-3"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-3"
+                tabindex="-1"
+              >
+                Item 3
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-4"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-4"
+                tabindex="-1"
+              >
+                Item 4
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-5"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-5"
+                tabindex="-1"
+              >
+                Item 5
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-6"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-6"
+                tabindex="-1"
+              >
+                Item 6
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-7"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-7"
+                tabindex="-1"
+              >
+                Item 7
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-8"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-8"
+                tabindex="-1"
+              >
+                Item 8
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-9"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-9"
+                tabindex="-1"
+              >
+                Item 9
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-10"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-10"
+                tabindex="-1"
+              >
+                Item 10
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-11"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-11"
+                tabindex="-1"
+              >
+                Item 11
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-12"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-12"
+                tabindex="-1"
+              >
+                Item 12
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-13"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-13"
+                tabindex="-1"
+              >
+                Item 13
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-14"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-14"
+                tabindex="-1"
+              >
+                Item 14
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-15"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-15"
+                tabindex="-1"
+              >
+                Item 15
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-16"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-16"
+                tabindex="-1"
+              >
+                Item 16
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-17"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-17"
+                tabindex="-1"
+              >
+                Item 17
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-18"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-18"
+                tabindex="-1"
+              >
+                Item 18
+              </a>
+            </li>
+            <li
+              class="bds-c-carousel__list__item"
+              id="carousel__list-item-19"
+              style="height: 200px; width: 300px;"
+            >
+              <a
+                href="/page-19"
+                tabindex="-1"
+              >
+                Item 19
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bds-c-carousel__nav-button bds-c-carousel__nav-button--body bds-c-carousel__nav-button--next"
+        >
+          <div
+            class="bds-c-btn-cursor"
+          >
+            <button
+              aria-controls="carousel__list"
+              aria-label="Next"
+              class="bds-c-btn bds-c-btn-circular bds-c-btn-circular-contained bds-c-btn-circular--size-medium"
+            >
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.6032 4.39702L12.6874 4.46963L19.8828 11.6639C20.0386 11.8197 20.0391 12.0722 19.8839 12.2286L12.6382 19.5284C12.3464 19.8223 11.8716 19.8241 11.5776 19.5323C11.3103 19.267 11.2846 18.8505 11.5013 18.556L11.5736 18.4716L17.0818 12.9204C17.1207 12.8812 17.1205 12.8179 17.0813 12.779C17.0625 12.7604 17.0372 12.75 17.0108 12.75L4.75 12.75C4.33579 12.75 4 12.4142 4 12C4 11.5858 4.33579 11.25 4.75 11.25L17.1055 11.25C17.1607 11.25 17.2055 11.2052 17.2055 11.15C17.2055 11.1235 17.195 11.098 17.1762 11.0793L11.6268 5.53037C11.3605 5.26413 11.3363 4.84747 11.5541 4.55384L11.6267 4.46971C11.8929 4.20343 12.3096 4.17918 12.6032 4.39702Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bds-c-carousel__footer"
+      >
+        <nav
+          aria-label="Pagination for carousel"
+        >
+          <ol
+            class="bds-c-carousel__pagination"
+            role="presentation"
+          >
+            <li
+              class="bds-c-carousel__pagination__indicator is-active"
+            >
+              <button
+                aria-current="page"
+                aria-label="Page 1 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 2 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 3 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator"
+            >
+              <button
+                aria-label="Page 4 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator is-fading"
+            >
+              <button
+                aria-label="Page 5 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 6 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+            <li
+              class="bds-c-carousel__pagination__indicator bds-c-carousel__pagination__indicator--exit bds-c-carousel__pagination__indicator--exit-active"
+            >
+              <button
+                aria-label="Page 7 of 7 in carousel"
+                class="bds-c-carousel__pagination__indicator__button"
+                tabindex="-1"
+              >
+                <div
+                  class="bds-c-carousel__pagination__indicator__outer"
+                >
+                  <div
+                    class="bds-c-carousel__pagination__indicator__inner"
+                  />
+                </div>
+              </button>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
+`;

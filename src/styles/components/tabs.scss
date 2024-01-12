@@ -1,0 +1,230 @@
+@import '../variables.module';
+
+@import './button';
+
+.bds-c-tabs {
+  $self: &;
+  position: relative;
+
+  &__container {
+    position: relative;
+    // To make space for tab's focus ring without adding unnecessary spacing to the tablist
+    // Reference: https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-y-hidden-causing-scrollbar-issue
+    max-width: calc(100% + #{$bds-spacing-xs});
+    padding: $bds-spacing-xs;
+    // margin: calc(#{$bds-spacing-xs} * -1);
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari & Opera */
+    }
+  }
+
+  &__list {
+    list-style: none;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: $bds-breakpoint-min-xl) {
+      column-gap: $bds-spacing-sm;
+    }
+  }
+
+  &__button-overlay {
+    position: absolute;
+    top: 0;
+    z-index: $bds-zindex-low-base;
+    display: flex;
+    align-items: center;
+    height: calc(100% - #{$bds-spacing-xs * 2});
+    margin: $bds-spacing-xs 0;
+    background-color: $color-white;
+
+    &--prev {
+      left: calc(#{$bds-spacing-xs} * -1);
+      padding-right: $bds-spacing-st;
+    }
+
+    &--next {
+      right: calc(#{$bds-spacing-xs} * -1);
+      padding-left: $bds-spacing-st;
+    }
+
+    @media (pointer: coarse) and (max-width: $bds-breakpoint-max-sm) {
+      display: none;
+    }
+  }
+
+  &--has-bottom-border {
+    #{ $self }__list {
+      border-bottom: 1px solid $color-neutral-divider;
+    }
+  }
+
+  &--is-centered {
+    #{ $self }__container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &--is-full-width {
+    #{ $self }__container {
+      overflow-x: visible;
+    }
+
+    #{ $self }__list {
+      width: calc(100% + #{$bds-spacing-xs});
+
+      .bds-c-tab {
+        flex-grow: 1;
+
+        > button {
+          width: 100%;
+        }
+
+        &__label {
+          @include typography-label-md();
+        }
+      }
+
+      @media (min-width: $bds-breakpoint-min-xl) {
+        column-gap: unset;
+      }
+    }
+  }
+}
+
+.bds-c-tab {
+  > button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    padding: $bds-spacing-sm;
+    margin: 0;
+    color: $color-interaction-secondary-hover;
+    background-color: $color-white;
+    border: none;
+    border-radius: $bds-corner-radius-mini;
+    cursor: pointer;
+    @media (prefers-reduced-motion: no-preference) {
+      transition: color $bds-motion-duration-150 $bds-motion-easing-standard,
+        background-color $bds-motion-duration-150 $bds-motion-easing-standard;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: $bds-corner-radius-button;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: inset $bds-motion-duration-200 $bds-motion-easing-bounce,
+          box-shadow $bds-motion-duration-200 $bds-motion-easing-standard;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      z-index: $bds-zindex-surface-base;
+      width: 0px;
+      height: 4px;
+      margin: 0 auto;
+      background-color: $color-interaction-primary;
+      border-radius: 20px;
+      opacity: 0;
+      transform: translateX(-50%);
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-150 $bds-motion-easing-bounce,
+          opacity $bds-motion-duration-150 $bds-motion-easing-bounce;
+      }
+    }
+
+    &:active {
+      color: $color-on-interaction-secondary-hover;
+      background-color: $color-interaction-background-hover;
+    }
+
+    &:disabled {
+      color: $color-neutral-inactive;
+      pointer-events: none;
+    }
+
+    &:not(:disabled):hover {
+      background-color: $color-interaction-background-hover;
+
+      &::after {
+        width: 30px;
+        opacity: 1;
+      }
+    }
+
+    &:focus-visible {
+      outline: 0;
+
+      &::before {
+        z-index: $bds-zindex-low-raised;
+        box-shadow: 0 0 0 4px $color-focus-ring-dark,
+          0 0 0 8px $color-focus-ring-light;
+      }
+    }
+  }
+
+  &.is-selected {
+    > button {
+      color: $color-on-interaction-secondary-hover;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: color $bds-motion-duration-100 $bds-motion-easing-exit,
+          background-color $bds-motion-duration-100 $bds-motion-easing-exit;
+      }
+
+      &::after {
+        width: 100%;
+        opacity: 1;
+        @media (prefers-reduced-motion: no-preference) {
+          transition: width $bds-motion-duration-200 $bds-motion-easing-bounce;
+        }
+      }
+
+      &:not(:disabled):hover {
+        background-color: $color-white;
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &.bds-is-disabled {
+    cursor: not-allowed;
+  }
+
+  &__icon {
+    display: flex;
+    margin-right: $bds-spacing-xs;
+  }
+
+  &__label {
+    @include typography-label-sm();
+    white-space: nowrap;
+
+    @media (min-width: $bds-breakpoint-min-xl) {
+      @include typography-label-md();
+    }
+  }
+}

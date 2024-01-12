@@ -1,0 +1,68 @@
+.bds-c-carousel {
+  $self: &;
+
+  &__autoplay-button {
+    position: absolute;
+    bottom: calc(100% + #{$bds-spacing-xs});
+  }
+
+  &__footer {
+    &--has-nav-buttons {
+      #{ $self }__autoplay-button {
+        bottom: calc(100% - #{$bds-spacing-xxs});
+      }
+    }
+
+    &--is-autoplaying {
+      #{ $self }__pagination__indicator {
+        &.is-active {
+          #{ $self }__pagination__indicator__inner {
+            @media (prefers-reduced-motion: no-preference) {
+              animation: autoplay-pagination;
+              animation-duration: var(--carousel-autoplay-interval);
+              animation-timing-function: linear;
+            }
+          }
+
+          &.is-paused {
+            #{ $self }__pagination__indicator__inner {
+              @media (prefers-reduced-motion: no-preference) {
+                animation-play-state: paused;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--has-autoplay {
+    &#{ $self }--is-full-width {
+      #{ $self }__list {
+        @media (prefers-reduced-motion: no-preference) {
+          transition: none;
+        }
+      }
+
+      #{ $self }__list__item {
+        opacity: 0;
+
+        @media (prefers-reduced-motion: no-preference) {
+          transition: opacity $bds-motion-duration-600
+            $bds-motion-easing-entrance;
+        }
+
+        &--exit-active,
+        &--exit-done {
+          opacity: 0;
+        }
+
+        &--appear,
+        &--enter-active,
+        &--enter-done {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

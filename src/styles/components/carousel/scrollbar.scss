@@ -1,0 +1,74 @@
+.bds-c-carousel {
+  $self: &;
+
+  &__scrollbar {
+    $scrollbar: &;
+    position: relative;
+    height: 6px;
+    width: 100%;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: $bds-corner-radius-circle;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: box-shadow $bds-motion-duration-200
+          $bds-motion-easing-standard;
+      }
+    }
+
+    &:focus-visible {
+      outline: 0;
+
+      &::before {
+        box-shadow: 0 0 0 2px $color-focus-ring-dark,
+          0 0 0 4px $color-focus-ring-light;
+      }
+    }
+
+    &__track {
+      position: absolute;
+      top: 2px;
+      height: 2px;
+      width: 100%;
+      background-color: $color-neutral-inactive;
+      border-radius: $bds-corner-radius-circle;
+      cursor: pointer;
+    }
+
+    &__thumb {
+      position: absolute;
+      top: 2px;
+      height: 2px;
+      background-color: $color-interaction-secondary;
+      border-radius: $bds-corner-radius-circle;
+      cursor: grab;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-300 $bds-motion-easing-standard,
+          left $bds-motion-duration-300 $bds-motion-easing-standard;
+      }
+
+      &:hover {
+        top: 1px;
+        height: 4px;
+      }
+    }
+
+    &--is-dragging {
+      #{ $scrollbar }__track {
+        top: 1px;
+        height: 4px;
+      }
+
+      #{ $scrollbar }__thumb {
+        top: 0;
+        height: 6px;
+        cursor: grabbing;
+        @media (prefers-reduced-motion: no-preference) {
+          transition: left $bds-motion-duration-100 linear;
+        }
+      }
+    }
+  }
+}

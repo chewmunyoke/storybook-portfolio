@@ -1,0 +1,120 @@
+.bds-c-carousel {
+  $self: &;
+  display: flex;
+  flex-direction: column;
+  row-gap: $bds-spacing-sm;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: $bds-spacing-lg;
+
+    &--left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--right {
+      display: flex;
+      align-items: center;
+      column-gap: $bds-spacing-lg;
+    }
+
+    &__title {
+      font-size: 18px;
+      font-weight: 500;
+      color: $color-neutral-primary;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      color: $color-neutral-primary;
+      margin-top: $bds-spacing-xxxs;
+    }
+  }
+
+  &__body {
+    position: relative;
+    // padding-right: $bds-spacing-xs;
+  }
+
+  &__container {
+    // To make space for carousel item's focus ring without adding unnecessary spacing to the list
+    // Reference: https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-y-hidden-causing-scrollbar-issue
+    max-width: calc(100% + #{$bds-spacing-xs});
+    padding: $bds-spacing-xs;
+    margin: calc(#{$bds-spacing-xs} * -1);
+    overflow: hidden;
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari & Opera */
+    }
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    column-gap: var(--carousel-gap);
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    @media (prefers-reduced-motion: no-preference) {
+      transition: transform $bds-motion-duration-300 $bds-motion-easing-standard;
+    }
+
+    &__item {
+      @media (prefers-reduced-motion: no-preference) {
+        transition: width $bds-motion-duration-300 $bds-motion-easing-standard,
+          height $bds-motion-duration-300 $bds-motion-easing-standard;
+      }
+
+      a {
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          border-radius: $bds-corner-radius-container;
+          @media (prefers-reduced-motion: no-preference) {
+            transition: box-shadow $bds-motion-duration-200
+              $bds-motion-easing-standard;
+          }
+        }
+
+        &:focus-visible {
+          outline: 0;
+
+          &::before {
+            box-shadow: 0 0 0 4px $color-focus-ring-dark,
+              0 0 0 8px $color-focus-ring-light;
+          }
+        }
+      }
+    }
+  }
+
+  &__footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: $bds-spacing-xs;
+  }
+
+  &--is-dragging {
+    #{ $self }__list {
+      cursor: grabbing;
+      @media (prefers-reduced-motion: no-preference) {
+        transition: none;
+      }
+
+      &__item a {
+        cursor: grabbing;
+      }
+    }
+  }
+}

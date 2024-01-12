@@ -1,0 +1,91 @@
+$bds-breakpoint-min-sm: 528px;
+$bds-breakpoint-min-md: 768px;
+$bds-breakpoint-min-lg: 960px;
+$bds-breakpoint-min-xl: 1264px;
+$bds-breakpoint-max-sm: 527.98px;
+$bds-breakpoint-max-md: 767.98px;
+$bds-breakpoint-max-lg: 959.98px;
+$bds-breakpoint-max-xl: 1263.98px;
+$bds-corner-radius-button: 8px;
+$bds-corner-radius-circle: 9999px;
+$bds-corner-radius-container: 12px;
+$bds-corner-radius-mini: 4px;
+$bds-corner-radius-pressed: 12px;
+$bds-elevation-low: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+$bds-elevation-medium: 0px 0px 48px 0px rgba(0, 0, 0, 0.24);
+$bds-elevation-high: 0px 0px 96px 0px rgba(0, 0, 0, 0.24);
+$bds-motion-delay-50: 50ms;
+$bds-motion-delay-100: 100ms;
+$bds-motion-duration-100: 100ms;
+$bds-motion-duration-150: 150ms;
+$bds-motion-duration-200: 200ms;
+$bds-motion-duration-250: 250ms;
+$bds-motion-duration-300: 300ms;
+$bds-motion-duration-350: 350ms;
+$bds-motion-duration-400: 400ms;
+$bds-motion-duration-450: 450ms;
+$bds-motion-duration-500: 500ms;
+$bds-motion-duration-550: 550ms;
+$bds-motion-duration-600: 600ms;
+$bds-motion-easing-standard: cubic-bezier(0.22, 0.1, 0.1, 1);
+$bds-motion-easing-entrance: cubic-bezier(0, 0, 0.1, 1);
+$bds-motion-easing-exit: cubic-bezier(0.52, 0, 1, 1);
+$bds-motion-easing-bounce: cubic-bezier(0.35, 0.12, 0.14, 1.42);
+$bds-spacing-xxxs: 2px;
+$bds-spacing-xxs: 4px;
+$bds-spacing-xs: 8px;
+$bds-spacing-st: 12px;
+$bds-spacing-sm: 16px;
+$bds-spacing-md: 24px;
+$bds-spacing-lg: 32px;
+$bds-spacing-xl: 48px;
+$bds-spacing-xxl: 64px;
+$bds-zindex-surface-base: 1;
+$bds-zindex-surface-raised: 1;
+$bds-zindex-surface-peak: 1;
+$bds-zindex-low-base: 100;
+$bds-zindex-low-raised: 125;
+$bds-zindex-low-peak: 150;
+$bds-zindex-medium-base: 200;
+$bds-zindex-medium-raised: 225;
+$bds-zindex-medium-peak: 250;
+$bds-zindex-high-base: 300;
+$bds-zindex-high-raised: 325;
+$bds-zindex-high-peak: 350;
+$color-focus-ring-dark: #0067a0;
+$color-focus-ring-light: #b2e2f0;
+$color-interaction-primary: #e21b70;
+$color-interaction-primary-hover: #c21760;
+$color-on-interaction-primary: #ffffff;
+$color-on-interaction-primary-hover: #ffffff;
+$color-interaction-secondary: #666666;
+$color-interaction-secondary-hover: #333333;
+$color-on-interaction-secondary: #e21b70;
+$color-on-interaction-secondary-hover: #c21760;
+$color-interaction-background-hover: #fdf2f7;
+$color-interaction-reversed-white-opacity-15: #ffffff26;
+$color-interaction-reversed-white-opacity-30: #ffffff4d;
+$color-interaction-reversed-white-opacity-50: #ffffff80;
+$color-neutral-primary: #333333;
+$color-neutral-secondary: #767676;
+$color-neutral-border: #dcdcdc;
+$color-neutral-divider: #ebebeb;
+$color-neutral-inactive: #cacaca;
+$color-neutral-surface: #f7f7f7;
+$color-transparent: #00000000;
+$color-white: #ffffff;
+
+@mixin typography-label-sm() {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@mixin typography-label-md() {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+:export {
+  bdsCornerRadiusContainer: $bds-corner-radius-container;
+  colorNeutralPrimary: $color-neutral-primary;
+}
